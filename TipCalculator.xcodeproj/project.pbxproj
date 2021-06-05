@@ -57,6 +57,7 @@
 		AC4F3C0A266A8823005B2D0E /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4F3C0E266A8823005B2D0E /* TipCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorUITests.m; sourceTree = "<group>"; };
 		AC4F3C10266A8823005B2D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFC53DE266B4D1200744276 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		AC4F3BDB266A881E005B2D0E = {
 			isa = PBXGroup;
 			children = (
+				ACFC53DE266B4D1200744276 /* README.md */,
 				AC4F3BE6266A881E005B2D0E /* TipCalculator */,
 				AC4F3C02266A8823005B2D0E /* TipCalculatorTests */,
 				AC4F3C0D266A8823005B2D0E /* TipCalculatorUITests */,
