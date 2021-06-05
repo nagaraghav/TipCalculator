@@ -19,6 +19,18 @@
     // Do any additional setup after loading the view.
 }
 
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
+    self.defaultTipField.text = [NSString stringWithFormat:@"%.0f%%", doubleValue];
+    
+}
+
+
+
 /*
 #pragma mark - Navigation
 
@@ -28,6 +40,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)onEditing:(id)sender {
+    double newTip = [self.defaultTipField.text doubleValue];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setDouble:newTip forKey:@"default_tip_percentage"];
+    [defaults synchronize];
+
+}
+
 
 - (IBAction)onTap:(id)sender {
     
