@@ -10,11 +10,11 @@ Time spent: **4** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 
-* [ x] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -30,15 +30,12 @@ Here's a walkthrough of implemented user stories:
 
 
 
-<iframe src="https://giphy.com/embed/0cVMgQ8oyeWq8BYneT" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/0cVMgQ8oyeWq8BYneT">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/0cVMgQ8oyeWq8BYneT/giphy.gif" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen>
 
 
 
 
 
-
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
